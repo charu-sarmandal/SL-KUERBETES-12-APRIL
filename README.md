@@ -8,3 +8,6 @@ aws eks --region ap-south-1 describe-cluster --name hiteshCluster --query cluste
 
 aws eks --region ap-south-1 update-kubeconfig --name hiteshCluster
 
+## AWS CLI Downlaod and Install
+
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
