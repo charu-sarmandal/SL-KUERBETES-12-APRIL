@@ -11,3 +11,13 @@ aws eks --region ap-south-1 update-kubeconfig --name hiteshCluster
 ## AWS CLI Downlaod and Install
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
+
+## Kubectl Context Commands
+
+kubectl config current-context
+
+kubectl config get-contexts
+
+kubectl config use-context docker-desktop
+
+
