@@ -20,4 +20,6 @@ kubectl config get-contexts
 
 kubectl config use-context docker-desktop
 
+## Undo Deployment
 
+kubectl rollout undo deployment nginx-deployment-recreate
